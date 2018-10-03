@@ -1,0 +1,51 @@
+.container{ max-width:100% !important;}
+header{background-image: url('/it4d/images/background.jpg'); background-size: cover}
+#nav{background-color:transparent; position: fixed; width:100%; height: auto; display: block;z-index: 10000;}
+.nav-image{display: block;}
+#logo{margin: 8px; background-color:inherit}
+.social{float: right}
+.social a{color: inherit}
+.social a:hover{color: inherit}
+.navbar-button{background-color:inherit; display: none; margin:2% ;cursor: pointer}
+.navbar-item{list-style-type: none; display: inline-block; left:0;right: 0;padding:0; margin: 0;background-color:inherit; z-index: 10000}
+.navbar-item li{display: inline-block;}
+.page{padding:9px 20px; display: inline-block; color:white; text-decoration: none; font-weight: bold}
+.page:hover{background-color: rgba(228,230,230,0.96); padding: 8px 20px; text-decoration:none;}
+@media (max-width: 1199px) {
+    .navbar-button{display: inline-block}
+    .navabar-item{width: 100%; }
+    .navbar-item li a{padding:5px 465px 5px 5px; display: inline-block;}
+    .navbar-item li a:hover{padding:5px 465px 5px 5px}
+}
+.dwit-logo{width:250px; height: auto; margin-top: 30px; padding-top:10%}
+.banner{text-transform:uppercase;color: white;font-size: 60px; font-weight: bold; border-bottom: 1px solid #eeeeee; margin-top:20px; padding-bottom: 100px}
+.date-time{margin-bottom: 70px; color: #eeeeee; padding-bottom: 60px}
+section{padding-top: 3%; padding-bottom:5px; overflow-x: hidden;}
+.inverse{background-color:#eaeaea;}
+.inverse h2{margin-top: 20px; font-weight: bold}
+.inverse .card{margin:25px}
+#slideshow-container {background-size: cover; background-repeat: no-repeat;}
+.page-title{font-weight: bolder; font-size: 32px}
+.table-head{background-color: #17a2b8!important}
+.team img{display: inline; margin: 10px; float: left}
+.team p{margin: 10px;}
+.event img{display: inline}
+.blog{padding-top: 20px}
+.blog img{max-width: 100%; height: auto}
+#blog-post{padding: 30px}
+#blog-post a{color: black; font-weight: bold}
+#blog-post a:hover{color: black}
+#contact-us{margin-top: 5px;}
+#contact-form{margin: 10px 0 80px -5px;padding: 10px; background-color: #C0C6D6}
+#contact-form input, textarea{background-color: #C6CAD3}
+.contact{color: black; padding: 5px; font-size: 18px;}
+.contact:hover{color: black}
+.contact-btn{ margin-top: 10px; margin-bottom: 150px; padding:10px}
+.contact-btn p{border-bottom:1px black}
+#article h2{font-size: 45px;text-transform: uppercase; }
+.image-overflow{overflow: hidden}
+.author {font-size: 14px;color: #0f5288;font-style: oblique;}
+.published-date{font-size: 14px;color:grey;float:right;font-style: oblique;}
+footer{background-color: #5a6268}
+.blue-border-bottom{border-bottom: 1px solid #0f5288; margin-bottom: 5px;}
+.blue-border-top{ border-top:1px solid #0f5288;}
