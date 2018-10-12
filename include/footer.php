@@ -10,35 +10,52 @@
     <div class="row">
         <div class="offset-1 col-md-10 offset-1">
             <p class="text-center">
-                Copyright © 2018 Annual International Conference on Information Technology for Development. All rights reserved.
+             © 2018 Annual International Conference on Information Technology for Development. All rights reserved.
             </p>
         </div>
     </div>
 </div>
 </footer>
+
+
 <script>
-    $(document).ready(function($){
-        var winWidth =  $(window).width();
-        var maxWidth = 994;
-        if(winWidth < maxWidth){
+    $(document).ready(function($) {
+        var winWidth = $(window).width();
+        var maxWidth = 1200;
+        if (winWidth < maxWidth) {
             $("#content-navbar").addClass("collapse");
+            $("#nav").css("background-color","white");
+            $(".page").css("color","black");
+            $(".social").css("color","#0f5288");
 
         }
-        $(window).resize(function(){
+        $(window).resize(function () {
 
-            var winWidth =  $(window).width();
+            var winWidth = $(window).width();
 
-            var maxWidth = 1199;
+            var maxWidth = 1200;
 
-            if(winWidth < maxWidth){
+            if (winWidth < maxWidth) {
                 $("#content-navbar").addClass("collapse");
+                $("#nav").css("background-color","white");
+                $(".page").css("color","black");
+                $(".social").css("color","#0f5288");
             }
-            else{
+            else {
                 $("#content-navbar").removeClass("collapse");
+                $("#nav").css("background-color","transparent");
+                $(".page").css("color","white");
+                $(".social").css("color","white");
+
             }
         });
 
+        $(window).onscroll(function () {
+
+
+        });
     });
+
 </script>
 
 <script>
@@ -48,19 +65,24 @@
 
     function changeColor() {
         var Header = document.getElementById("nav");
-        var Navbar=document.getElementsByClassName("page");
-        if (document.body.scrollTop > 5 || document.documentElement.scrollTop > 5) {
-            Header.style.backgroundColor="white";
-            for(var i=0;i<Navbar.length;i++)
-            {
-                Navbar[i].style.color='black';
+        var Navbar = document.getElementsByClassName("page");
+        var Social = document.getElementsByClassName("social");
+        if (document.body.scrollTop > 2 || document.documentElement.scrollTop > 2) {
+            Header.style.backgroundColor = "white";
+            for (var i = 0; i < Navbar.length; i++) {
+                Navbar[i].style.color = 'black';
+            }
+            for (var i = 0; i < Social.length; i++) {
+                Social[i].style.color = '#0f5288';
             }
         } else {
-            Header.style.backgroundColor = "transparent";
-            for(var i=0;i<Navbar.length;i++)
-            {
-                Navbar[i].style.color='white';
-            }
+                Header.style.backgroundColor = "transparent";
+                for (var i = 0; i < Navbar.length; i++) {
+                    Navbar[i].style.color = 'white';
+                }
+                for (var i = 0; i < Social.length; i++) {
+                    Social[i].style.color = "white";
+                }
         }
     }
 </script>

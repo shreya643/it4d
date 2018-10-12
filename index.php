@@ -22,36 +22,60 @@
         </div>
     </div>
     <div class="row inverse">
-        <div class=" col-md-7 event">
+        <div class=" col-md-5 event text-center">
             <h2 class=" text-center">Event Highlights</h2>
-            <div class="row">
-                <div class="col-md-3 card">
-                    <h3><strong><i class="fa fa-thumbtack" style="font-size: 34px"></i>DAY 1</strong></h3>
-                    <p><strong>Date:</strong> 3rd August 2018</p>
-                    <p><strong>Events:</strong> Opening session, Presentation sessions,Workshop on Research Writing</p>
-                    <p><strong>Venue:</strong> Deerwalk Complex, Sifal, Kathmandu</p>
-                </div>
-                <div class="col-md-3 card">
-                        <h3><strong>DAY 2</strong></h3>
-                        <p><strong>Date:</strong> 4th August 2018</p>
-                        <p><strong>Events:</strong> Key Note Speech,Presentation sessions,Panel Discussion, Valedictory session</p>
-                        <p><strong>Venue:</strong>Hotel Annapurna, Kathmandu </p>
-                </div>
-                <div class="col-md-3 card">
-                    <h3><strong>DAY 3</strong></h3>
-                    <p><strong>Date:</strong>5th August 2018</p>
-                    <p><strong>Events:</strong>Hiking</p>
-                    <p><strong>Route: </strong>Sankhu
-                        - Jaharsingh Pauwa </p>
-                    <p><strong>Venue:</strong> Deerwalk Complex, Sifal, Kathmandu</p>
+            <h3><strong>DAY 1</strong></h3>
+            <p><strong>Date:</strong> 3rd August 2018</p>
+            <p><strong>Events:</strong> Opening session, Presentation sessions,Workshop on Research Writing</p>
+            <p><strong>Venue:</strong> Deerwalk Complex, Sifal, Kathmandu</p>
 
+            <h3><strong>DAY 2</strong></h3>
+            <p><strong>Date:</strong> 4th August 2018</p>
+            <p><strong>Events:</strong> Key Note Speech,Presentation sessions,Panel Discussion, Valedictory session</p>
+            <p><strong>Venue:</strong>Hotel Annapurna, Kathmandu </p>
+
+            <h3><strong>DAY 3</strong></h3>
+            <p><strong>Date:</strong>5th August 2018</p>
+            <p><strong>Events:</strong>Hiking</p>
+            <p><strong>Route: </strong>Sankhu - Jaharsingh Pauwa </p>
+            </div>
+        <div class="col-md-7" id="slideshow-container"></div>
+    </div>
+
+    <div class="row inverse">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-5 image-overflow" id="overlay">
+                    <img src="images/18.jpg"  class="image" style="width:100%">
+                    <div class="middle">
+                        <div class="text"><a href="#">IT4D 2018</a></div>
+                    </div>
+                </div>
+                <div class="offset-1"></div>
+                <div class="col-md-5 image-overflow" id="overlay">
+                    <img src="images/17.jpg"  class="image" style="width:100%">
+                    <div class="middle">
+                        <div class="text"><a href="#">IT4D 2017</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5 image-overflow" id="overlay">
+                    <img src="images/16.jpg"  class="image" style="width:100%">
+                    <div class="middle">
+                        <div class="text"><a href="#">IT4D 2016</a></div>
+                    </div>
+                </div>
+                <div class="offset-1"></div>
+                <div class="col-md-5 image-overflow" id="overlay">
+                    <img src="images/14.jpg"  class="image" style="width:100%">
+                    <div class="middle">
+                        <div class="text"><a href="#">IT4D 2014</a></div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="col-md-5" id="slideshow-container">
-
-        </div>
-        </div>
+    </div>
 
     <div class="row blog">
         <div class="offset-1 col-md-10 offset-1">
@@ -113,33 +137,55 @@
     </div>
     </div>
     <div class="row inverse">
-        <div class="offset-1 col-md-10 offset-1" id="contact-us">
+        <div class="offset-1 col-md-11" id="contact-us">
             <h2 class="text-center"><strong>Contact Us</strong></h2>
             <div class="row">
-                <div class="offset-1 col-md-4 offset-1 contact-btn">
-                    <p><i class="fa fa-envelope" style="font-size: 20px"></i><a class="contact" href="mailto:"> it4d@deerwalk.edu.np</a></p>
-                    <p>
-                        <i class="fa fa-phone" style="font-size: 20px"></i>
-                        <a class="contact" href="tel:">977-01-4485424,</a>
-                        <a class="contact" href="tel:"> 977-9804437197</a></p>
-                    <p ><iframe style="width: 100%; height:auto" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.166575351381!2d85.3403699149896!3d27.71214273188833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1970d2e43e4b%3A0x946fac63019d2903!2sDeerwalk+Institute+of+Technology!5e0!3m2!1sen!2snp!4v1465813849775"></iframe></p>
-                </div>
-                <div class="offset-1"></div>
-                <div class="col-md-6 card"  id="contact-form" >
+                <div class="col-md-5">
                     <div class="row">
-                        <div class="col-md-6">
-                           <p> Name*<input type="text" name="name" value="" size="25" aria-required="true" aria-invalid="false"/></p>
-                            <p>Address*<input type="text" name="address" value="" size="25"  aria-required="true" aria-invalid="false"/></p>
-                            <p>Phone<input type="text" name="phone" value="" size="25" aria-invalid="false"/></p>
-                            <p>Email*<input type="email" name="email" value="" size="25" aria-required="true" aria-invalid="false"/>
-                            </p></div>
-                        <div class="col-md-6">
-                            Comments<textarea name="comments" cols="25" rows="10"  aria-invalid="false"></textarea>
+                        <div class="col-md-12">
+                            <p  class="contact"> <i class="fa fa-envelope"><a href="mailto:"> it4d@deerwalk.edu.np</a></i></p>
+                            <p class="contact">
+                                <i class="fa fa-phone">
+                                    <a  href="tel:">977-01-4485424</a>
+                                    <a href="tel:"> 977-9804437197</a>
+                                </i>
+
+                            </p>
                         </div>
-                        <div class="col-md-12 text-center"><input type="submit" value="Send"/></div>
+
+                    </div>
+                    <div class="row">
+                        <iframe style="width: 100%; height:100%" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.166575351381!2d85.3403699149896!3d27.71214273188833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1970d2e43e4b%3A0x946fac63019d2903!2sDeerwalk+Institute+of+Technology!5e0!3m2!1sen!2snp!4v1465813849775"></iframe>
                     </div>
                 </div>
+
+                <div class="col-md-6 card"  id="contact-form" >
+                        <form>
+                            <div class="row">
+                            <div class="col-md-6">
+                                    <label for="name" >Name:</label>
+                                    <input type="text"  id="name" class="form-control">
+                                    <label for="address">Address:</label>
+                                    <input type="text"  id="address" class="form-control">
+                                    <label for="phone">Phone:</label>
+                                    <input type="text" id="phone" class="form-control">
+                                    <label for="email">Email:</label>
+                                    <input type="email" class="form-control" id="email">
+                            </div>
+                            <div class="col-md-6">
+                                    <label for="comment">Comment:</label>
+                                    <textarea rows="6" class="form-control"  id="comment"></textarea>
+                            </div>
+                                <div class="col-md-12">
+                                    <div class="form-group text-center">
+                                        <button class="btn btn-success" type="submit">Send</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                </div>
             </div>
+
         </div>
     </div>
 </div>

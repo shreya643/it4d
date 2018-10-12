@@ -20,6 +20,7 @@
     <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
 
+
 </head>
 
 <body>
@@ -29,9 +30,9 @@
             <div class="col-md-12">
                 <div class="nav-image">
                     <a href="index.php"><img src="images/it4d_logo.png" id="logo"></a>
-                    <span class="social">
-                        <a href="https://www.facebook.com/IT4D.Conference" target="_blank"><i class="fa fa-facebook-square" style="font-size: 34px"></i></a>
-                        <a href="https://twitter.com/IT4D1" target="_blank"><i class="fa fa-twitter-square" style="font-size: 34px"></i></a>
+                    <span class="social-btn">
+                        <a href="https://www.facebook.com/IT4D.Conference" target="_blank"  class="social"><i class="fa fa-facebook-square"></i></a>
+                        <a href="https://twitter.com/IT4D1" target="_blank"  class="social"><i class="fa fa-twitter-square" ></i></a>
                     </span>
                 </div>
                 <div class="navbar-button">
